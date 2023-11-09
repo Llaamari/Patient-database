@@ -2,8 +2,6 @@
 -- version 5.2.0
 -- https://www.phpmyadmin.net/
 --
--- Host: 127.0.0.1
--- Generation Time: 03.11.2023 klo 14:04
 -- Palvelimen versio: 10.4.27-MariaDB
 -- PHP Version: 8.2.0
 
@@ -41,18 +39,6 @@ CREATE TABLE `patients` (
 -- Vedos taulusta `patients`
 --
 
-INSERT INTO `patients` (`id2`, `id`, `socialsecuritynumber`, `lastname`, `firstname`, `age`, `user_id`) VALUES
-(36, NULL, '150395-123A', 'SimilÃ¤', 'Laura', 28, 1),
-(37, NULL, '010190-123A', 'Virtanen', 'Anna', 45, 1),
-(38, NULL, '151285-456B', 'MÃ¤kinen', 'Jari', 32, 1),
-(39, NULL, '030393-789C', 'Nieminen', 'Laura', 27, 1),
-(40, NULL, '240497-234D', 'Korpela', 'Antti', 24, 1),
-(41, NULL, '121276-567E', 'Lehtonen', 'Sari', 45, 1),
-(42, NULL, '090572-890F', 'Lahtinen', 'Juha', 36, 3),
-(43, NULL, '210685-123G', 'Rantanen', 'Maria', 36, 3),
-(44, NULL, '150198-456H', 'HeikkilÃ¤', 'Matti', 23, 3),
-(46, NULL, '1111111', 'Tuntematon', 'Tiina', 45, 1);
-
 -- --------------------------------------------------------
 
 --
@@ -69,10 +55,6 @@ CREATE TABLE `users` (
 --
 -- Vedos taulusta `users`
 --
-
-INSERT INTO `users` (`id`, `username`, `password`, `created_at`) VALUES
-(1, 'laura', '$2y$10$hD//DFG9XthBdDFdNV/QlO.TTpm6eUvJ2AxE3hUZ4ZlHHaNqAZ3L.', '2023-09-07 08:42:15'),
-(3, 'marianne', '$2y$10$Dn0z2YeuKcvclnSS2T6PiOt8ReOZo23wvv9Js2Fl1wH6pCMhuGCPy', '2023-09-07 12:43:01');
 
 --
 -- Indexes for dumped tables
